@@ -1,0 +1,9 @@
+Process,Waiting time,Response time,Turnaround time
+p1,0,0,10
+p2,10,10,11
+p3,11,11,13
+p4,13,13,17
+p5,17,17,19
+p6,19,19,28
+p7,28,28,37
+p8,37,37,47
