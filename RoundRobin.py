@@ -47,7 +47,6 @@ class RoundRobin:
 
         response_time_list = [self.processes_list[i].response_time for i in range(self.num_processes)]
         self.average_response_time = sum(response_time_list)/self.num_processes
-        print(self.average_response_time)
 
         ### calculate turn around time - time from job arrives to job completes
         turnaround_time = 0

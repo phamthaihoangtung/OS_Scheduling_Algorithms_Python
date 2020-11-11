@@ -40,6 +40,8 @@ class Priority:
         self.processes_list[0].w_time = 0
         wait_time = 0
 
+        self.processes_list[0].response_time = 0
+
         list_turnaround_time = [self.processes_list[0].burst_time]
         self.processes_list[0].turnaround_time = self.processes_list[0].burst_time
         turnaround_time = self.processes_list[0].burst_time
